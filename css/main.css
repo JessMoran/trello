@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #0064a4;
+  height: 45px;
+  text-align: center;
+  width: 100%
+}
+
+button{
+  background: #66a3cb;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  height: 30px;
+  padding: 5px;
+  width: 100px;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+input {
+  background: #66a3cb;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  height: 20px;
+  padding: 5px;
+  width: 200px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:hover {
+  opacity: .8;
+}
+
+#logo{
+  height: 60px;
+  margin: -7px 200px 100px 0;
+  opacity: .5;
+  width: 80px;
+}
+
+#menu-container{
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#icons-container{
+  display: inline-block;
+  float: right;
+  margin-top: -6px;
+}
+
+#profile{
+  background-image: url("../assets/images/laboratoria.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  height: 35px;
+  margin:9px;
+  width: 35px;
+}
+
+.icon{
+  display: inline-block;
+  font-size: 20px;
+  height: 30px;
+  margin-bottom: 0;
+  width: 30px;
+}
+
+
+
+section {
+  background-color: #0075c1;
+  width: 100%;
+  height: 800px;
+  padding-left: 10px;
+
+
+}
+a {
+  text-decoration: none;
+
+}
+input {
+
+
+
+}
+button3 {
+  border: none;
+  background-color: inherit;
+  color: :#fff;
+  padding-left: 750px;
+}
+i {
+  color: #fff;
+  padding-left: 20px;
+}
+.fa-times {
+  color: #b2adad;
+
+}
+.tab-p {
+padding-bottom: 10px;
+}
+.tab {
+  color: #fff;
+  font-size:18px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+}
+
+.btn {
+  color: #fff;
+}
+.private {
+  color: #fff;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.list {
+  border:#147AA7;
+  border-radius: 5%;
+  background-color:#147AA7;
+  font-size: 14px;
+  color: #fff;
+  height: 30px;
+}
+.save {
+  width: 30px;
+}
