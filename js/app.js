@@ -2,9 +2,9 @@ var locationForm = document.body.children[1].children[1];
 document. getElementById("addNewFormat").addEventListener("click", newFormat);
 
 function newFormat() {
-  var divContainer = document.createElement("div");
-    divContainer.className = "container-text";
-    locationForm.appendChild(divContainer);
+    var divContainer = document.createElement("div");
+      divContainer.className = "container-text";
+      locationForm.appendChild(divContainer);
 
     var inputContainer = document.createElement ("input");
       inputContainer.className = "input-container";
