@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0;    /* pone toda la pantalla con el mismo formato */
   padding: 0;
 }
 
@@ -10,7 +10,7 @@ nav {
   width: 100%
 }
 
-button{
+button{ /* todos los botones tienen el mismo formato*/
   background: #66a3cb;
   border: none;
   color: #fff;
@@ -22,14 +22,14 @@ button{
 }
 
 button:focus{
-    outline: none;
+  outline: none;
 }
 
 button:hover {
   opacity: .8;
 }
 
-input {
+input { /* se le da position relative para lograr colocar el icon "search" dentro de él */
   background: #66a3cb;
   border: none;
   border-radius: 5px;
@@ -49,7 +49,7 @@ input:hover {
   opacity: .8;
 }
 
-main {
+main { /* esta seccion tiene un sólo formato */
   background-color: #0075c1;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   height: 800px;
@@ -76,20 +76,20 @@ a {
   width: 80px;
 }
 
-#menu-container{
+#menu-container { /* todos los elelmentos dentro de este tienen el mismo formato*/
   color: #fff;
   float: left;
   margin-left: 5px;
   margin-top: 5px;
 }
 
-#icons-container{
+#icons-container {
   display: inline-block;
   float: right;
   margin-top: -6px;
 }
 
-#profile{
+#profile { /* se le agrega un avatar en la foto de perfil*/
   background-image: url("../assets/images/laboratoria.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,7 +114,7 @@ a {
   width: 200px;
 }
 
-.icon{
+.icon{ /*todos los botones superiores cuantan con el mismo formato*/
   display: inline-block;
   font-size: 20px;
   height: 30px;
@@ -129,7 +129,7 @@ a {
   height: 30px;
 }
 
-.list::placeholder{
+.list::placeholder{ /*se le da un color para que se note con el fondo previamente especificado*/
   color: #fff;
 }
 
