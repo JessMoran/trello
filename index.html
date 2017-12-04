@@ -12,6 +12,7 @@
         <div id="menu-container">
           <button type="button" name="button"><i class="fa fa-trello" aria-hidden="true"></i> Boards</button>
           <input type="text" name="search">
+          <i id="search" class="fa fa-search fa-rotate-90" aria-hidden="true"></i>
         </div>
           <img id="logo" src="assets/images/trello-logo-white.svg" alt="logo">
         <div id="icons-container">
@@ -23,25 +24,18 @@
       </nav>
 
       <main>
-        <div class="tab-p">
+        <div id"tab-p">
           <a href="#"><span class="tab">Tablero de bienvenida - Reto de Código</span></a>
           <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
           <a href="#"><i class="fa fa-lock" aria-hidden="true"></i>
             <span class="private">Privado</span>
           </a>
-          <button class="btn" type="button" name="button">... Mostrar Menu</button>
-          </div>
-          <main class="form">
-            <form class="">
-              <input class="list" placeholder="Añadir una lista..." name="" value="Añadir una lista...">
-               <div class="">
-                 <input class="save" type="text" name="" value="Guardar">
-                 <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-               </div>
-            </form>
-          </main>
-      </div>
-    </main>
+          <button id="btn" type="button" name="button">... Mostrar Menu</button>
+        </div>
+        <form>
+          <input class="list" placeholder="Añadir una lista..." name="list" >
+        </form>
+      </main>
     <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
