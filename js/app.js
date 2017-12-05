@@ -1,11 +1,12 @@
 var locationForm = document.body.children[1].children[1];
 var principalSection = document.getElementById('principal-section');
 var listTarjet = document.getElementsByClassName('listTarjet')[0];
-//var containerText = documente.get
+
 
 document.getElementById("addNewFormat").addEventListener("click", newFormat);
 
 function newFormat() {
+    var disappearDiv = document.getElementById('addNewFormat').style.display = "none";
     var divContainer = document.createElement("div");
       divContainer.className = "container-text";
       locationForm.appendChild(divContainer);
@@ -31,24 +32,24 @@ function newFormat() {
     dad.removeChild(dad.childNodes[2]);
   }
 
-// click.preventDefault();
-// add.addEventListener('click',newList);
-
   function clear (){
     document.getElementById("input-container").value = "";
   }
 
 
-var newList = function() {
+function newList() {
   var listTarjet = document.createElement('div');
+    listTarjet.className = "listTarjet";
+    locationForm.appendChild(listTarjet);
+
   var tittleList = document.createElement('p');
   var textTittleList = document.getElementById('input-container').value;
-  tittleList.innerText = textTittleList;
-  listTarjet.appendChild(tittleList);
+    tittleList.innerText = textTittleList;
+    listTarjet.appendChild(tittleList);
   var addCard = document.createElement('a');
-  addCard.innerText = ('Añadir una tarjeta...');
-  listTarjet.appendChild(addCard);
-  principalSection.insertBefore(listTarjet,document. getElementById("addNewFormat"));
+    addCard.innerText = ('Añadir una tarjeta...');
+    listTarjet.appendChild(addCard);
+    principalSection.insertBefore(listTarjet,document. getElementById("addNewFormat"));
 
   clear();
 }

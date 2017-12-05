@@ -106,7 +106,6 @@ a {
   background-color:#0064a4;
   font-size: 14px;
   height: 30px;
-  position: relative;
   text-align: left;
   width: 300px;
 }
@@ -117,9 +116,7 @@ a {
   background: #e2e4e6;
   display: inline-block;
   height: 80px;
-  position: absolute;
   text-align: center;
-  bottom: 77%;
   width: 300px;
 }
 #input-container{
@@ -136,7 +133,7 @@ a {
     float: left;
     height: 30px;
     margin-left: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 65px;
 }
 .btn-close{
@@ -146,12 +143,12 @@ a {
     float: left;
     font-size: 20px;
     height: 20px;
-    margin-top: 8px;
+    margin-top: 7px;
     width: 30px;
 }
 
 .listTarjet {
-  background: #E2E4E6;
+  background: #e2e4e6;
   width: 302px;
 }
 
