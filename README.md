@@ -23,3 +23,5 @@
     * 1 form
       - 1 input
         (para añadir una nueva lista)
+
+![Diagrama Maquetado](assets/images/maquetado-trello.png)
