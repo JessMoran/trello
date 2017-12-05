@@ -40,3 +40,5 @@ var newList = function() {
   listTarjet.appendChild(addCard);
   principalSection.insertBefore(listTarjet,document. getElementById("addNewFormat"))
 }
+
+console.log('vamos, go');
