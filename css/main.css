@@ -131,19 +131,23 @@ a {
   width: 284px;
 }
 .btn-send{
-  background: #389F3C;
-  height: 30px;
-  margin-right: 230px;
-  margin-top: 10px;
-  width: 65px;
+    background: #389F3C;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 65px;
 }
 .btn-close{
-  background: #e2e4e6;
-  color: #000;
-  height: 20px;
-  margin-right: 100px;
-  margin-bottom: 100px;
-  width: 30px;
+    background: #e2e4e6;
+    color: #aaaaaa;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    height: 20px;
+    margin-top: 8px;
+    width: 30px;
 }
 
 .listTarjet {

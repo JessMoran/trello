@@ -21,9 +21,15 @@ function newFormat() {
     var btnClose = document.createElement ("button");
     var textClose = document.createTextNode ("X")
       btnClose.className = "btn-close";
+      btnClose.setAttribute("onclick","disappear()")
       divContainer.appendChild(btnClose);
       btnClose.appendChild(textClose);
 }
+
+  function disappear () {
+    var dad = document.getElementById("principal-section");
+    dad.removeChild(dad.childNodes[2]);
+  }
 
 // click.preventDefault();
 // add.addEventListener('click',newList);
