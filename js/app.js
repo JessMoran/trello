@@ -1,5 +1,8 @@
 var locationForm = document.body.children[1].children[1];
-document. getElementById("addNewFormat").addEventListener("click", newFormat);
+
+document.getElementById("addNewFormat").addEventListener("click",newFormat);
+var close = document.getElementsByClassName("btnClose");
+close[0].removeEventListener("click",disappear,true)
 
 function newFormat() {
     var divContainer = document.createElement("div");
@@ -11,22 +14,20 @@ function newFormat() {
       divContainer.appendChild(inputContainer);
 
     var btnSend = document.createElement ("button");
+    var textButton = document.createTextNode ("Save")
       btnSend.className = "btn-send";
       divContainer.appendChild(btnSend);
+      btnSend.appendChild(textButton);
 
     var btnClose = document.createElement ("button");
+    var textClose = document.createTextNode ("X")
       btnClose.className = "btn-close";
       divContainer.appendChild(btnClose);
-
-}
-/*
-function saveText() {
-
-
+      btnClose.appendChild(textClose);
 }
 
-
-<div>
-                <input class="save" type="text" name="" value="Guardar">
-                <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-              </div>*/
+function disappear() {
+    var dad = document.getElementById("dad");
+    //var byeFormat= document.getElementsByClassName("divContainer");
+    dad.classList.remove("container-text");
+}
